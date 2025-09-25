@@ -1,0 +1,158 @@
+body{
+   font-family: "Plus Jakarta Sans",sans-serif !important;
+   display:flex;
+   flex-direction: column;
+   min-height:100vh;
+}
+.container {
+  flex:1;
+}
+
+/* Navbar */
+.navbar{
+    height:5rem;
+    background-color: white;
+}
+.fa-compass{
+    font-size:2rem;
+    color:#fe424d;
+}
+.nav-link{
+    color:#222222 !important;
+}
+/*Footer*/
+.f-info-links a{
+    text-decoration: none;
+    color:#222222;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+    color:#222222;
+}
+
+.f-info-socials,.f-info-links,.f-info-brand{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right:1rem;
+}
+.f-info{
+    height:8rem;
+    text-align:center;
+    background-color: #ebebeb;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-left: calc(-50vw + 50%); /* cancel container padding */
+}
+/*CARDS*/
+
+/* keep show-card borderless */
+.card {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* restore border for reviews */
+.review-card {
+  border: 1px solid #ddd !important;
+  border-radius: 6px !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+.card-img-top{
+    width:100%;
+    border-radius:1rem !important;
+    object-fit: cover !important;
+
+}
+.card-body{
+    padding:0 !important;
+}
+.card-text p{
+    font-weight:400 !important;
+
+}
+.listing-link{
+    text-decoration: none;
+}
+/*CARD EFFECT*/
+
+.card-img-overlay{
+    opacity:0
+}
+.card-img-overlay:hover{
+    opacity:0.2;
+    background-color: white;
+}
+/*New page*/
+.add-btn{
+    background-color: #fe424d !important;
+    border:none !important;
+}
+
+/*Edit Page*/
+.edit-btn{
+    background-color: #fe424d !important;
+    border:none !important;
+}
+/* 
+Show page */
+.show-img{
+    height:30vh;
+}
+.btns{
+    display:flex;
+}
+.show-card{
+    padding-left:0;
+    padding-right:0;
+}
+
+/* MAP */
+#map { 
+    height:400px;
+ }
+
+/* FILTERS */
+   #filters{
+      display:flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .filter{
+      text-align: center;
+      margin-right:2rem;
+      margin-top: 2rem;
+      opacity:0.7
+    }
+    .filter:hover{
+      opacity:1;
+      cursor:pointer;
+    }
+    .filter p{
+      font-size:0.8rem;
+    }
+    .filter a{
+        text-decoration: none;
+        color:black;
+        opacity:0.8; 
+    }
+    .tax-info{
+      display:none;
+    }
+    .tax-toggle{
+      border:1px solid black;
+      border-radius:1rem;
+      height:3rem;
+      padding:0.75rem;
+      display: flex;
+      align-items: center;
+      margin-left:3rem;
+    }
