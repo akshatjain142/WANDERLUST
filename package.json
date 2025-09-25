@@ -2,6 +2,10 @@
   "engines":{
     "node":"22.15.0"
   },
+  "scripts": {
+  "start": "node app.js",
+  "install": "npm install --legacy-peer-deps"
+    },
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.16.2",
     "cloudinary": "^2.7.0",
