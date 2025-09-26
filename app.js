@@ -85,13 +85,8 @@ app.use("/listings",listingRouter);
 app.use("/listings/:id/reviews",reviewRouter);
 app.use("/",userRouter);
 
-app.get("/demoUser",async(req,res)=>{
-    const fakeUser=new User({
-        email:"abc@gmail.com",
-        username:"abcd"
-    });
-    const result=await User.register(fakeUser,"helloWorld");
-    res.send(result);
+app.get("/", (req, res) => {
+    res.render("listings/index", { listings: [], category: "All" });
 });
 
 //error handler
