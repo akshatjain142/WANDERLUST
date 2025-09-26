@@ -86,7 +86,7 @@ app.use("/listings/:id/reviews",reviewRouter);
 app.use("/",userRouter);
 
 app.get("/", (req, res) => {
-    res.render("listings/index", { listings: [], category: "All" });
+    res.render("home");
 });
 
 //error handler
