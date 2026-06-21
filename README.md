@@ -2,9 +2,6 @@
 
 Wanderlust is a full-stack web application inspired by Airbnb where users can create, browse, and review property listings with authentication, authorization, image upload, and location features.
 
-# Live Demo
-https://your-deployed-link.com
-
 # Features
 - User authentication (Register / Login / Logout)
 - Create, edit, and delete listings
@@ -50,14 +47,6 @@ cd wanderlust
 
 ## Install Dependencies
 npm install
-
-## Environment Variables
-ATLAS_URL=your_mongodb_url  
-SECRET=your_secret  
-MAP_TOKEN=your_mapbox_token  
-CLOUDINARY_CLOUD_NAME=your_cloud_name  
-CLOUDINARY_KEY=your_key  
-CLOUDINARY_SECRET=your_secret  
 
 ## Run Project
 node app.js
