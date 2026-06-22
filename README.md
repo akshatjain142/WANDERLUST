@@ -13,6 +13,9 @@ Wanderlust is a full-stack web application inspired by Airbnb where users can cr
 - Category-based filtering
 - Responsive UI using EJS templates
 
+#Deployment Link
+https://major-project-vuz2.onrender.com
+
 # Tech Stack
 - Node.js
 - Express.js
